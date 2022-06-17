@@ -23,7 +23,7 @@ for(i in forward) trace(i);
   
 #### step
   
-no reset option for step as keeping overhead minumum, currently no negative step either ( but see moere extensive Float implementation )
+no reset option for step as keeping overhead minumum, currently no negative step either ( but see more extensive Float implementation )
   
 ```Haxe
 import iterOther.IntIterBsse;
