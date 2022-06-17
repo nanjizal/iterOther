@@ -1,6 +1,6 @@
 ## iterOther
 
-providing abstract helpers for `for` loops, with aim to minimise overhead and allow ... notation.
+providing abstract helpers for `for` loops, with aim to minimise overhead and allow ```...``` notation.
 
 #### simple backwards
 ```Haxe
