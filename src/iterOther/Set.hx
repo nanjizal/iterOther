@@ -1,7 +1,7 @@
 @:forward(iterator)
 abstract Set<T>( Array<T> ){
-  public inline function new(a:Array<T>){
-		this = a;
+  public inline function new(...elements:T) {
+    this = elements.toArray();
   }
   public inline function contains(o:T): Bool {
      var n = this.lastIndexOf(o);
@@ -16,7 +16,7 @@ abstract Set<T>( Array<T> ){
     }
   }
   public inline function remove(o:T){
-	  this.remove(o);
+    this.remove(o);
   }
   public inline function clear(){
     this.resize(0);
