@@ -1,0 +1,9 @@
+
+-D doc-gen
+--macro include('iterOther')
+-cp src
+-main iterOther.upkeep.Doc
+--no-output
+-xml output.xml
+-js foo
+#-D dump==pretty
