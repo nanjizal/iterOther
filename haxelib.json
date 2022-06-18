@@ -1,0 +1,12 @@
+{
+    "name"         : "iterOther",
+    "url"          : "https://github.com/nanjizal/iterOther#iterOther",
+    "license"      : "MIT",
+    "tags"         : ["for","iterator" ],
+    "description"  : "iterOther provides abstract types to help with iteration",
+    "version"      : "0.0.1",
+    "releasenote"  : "See https://github.com/nanjizal/iterOther/blob/master/CHANGELOG.md",
+    "contributors" : ["Nanjizal"],
+    "classPath"    : "src",
+    "dependencies" : {}
+}
