@@ -1,4 +1,4 @@
--cmd haxe generate.hxml
+#-cmd haxe generate.hxml
 -cmd haxelib run dox -i output.xml --title "iterOther API documentation" -D themeColor 0x5DBB63 -D source-path https://github.com/nanjizal/iterOther/tree/master/src/ --toplevel-package iterOther
 -cmd cd pages
--cmd open index.html
+#-cmd open index.html
