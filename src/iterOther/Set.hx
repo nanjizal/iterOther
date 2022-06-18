@@ -4,15 +4,15 @@ abstract Set<T>( Array<T> ){
 		this = a;
   }
   public inline function contains(o:T): Bool {
-    var n = this.lastIndexOf(o);
-    return ( n == -1 );
+     var n = this.lastIndexOf(o);
+     return ( n != -1 );
   }
-  public inline function add(o:T){
-    return if( contains(o) ){
-		  this.push(o);
+  public inline function add(o:T):Bool{
+    return if( !contains(o) ){
+      this.push(o);
       true;
     } else {
-			false;
+      false;
     }
   }
   public inline function remove(o:T){
